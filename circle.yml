@@ -3,3 +3,7 @@ machine:
     Asia/Tokyo
   services:
     - docker
+
+dependencies:
+  pre:
+    - docker run -dit --privileged centos
